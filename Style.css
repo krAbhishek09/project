@@ -590,3 +590,47 @@ hr{
     width: 100%;
     background-color: black;
 }
+#movingImage {
+    position: absolute;
+    height: 80px;
+    perspective: 300;
+    opacity: 0.9;
+    top: 20px;
+    transform: translate(-50%, -50%);
+    transform: scale(1.3);
+    z-index: 99;
+    animation: moving 20s linear infinite;
+}
+
+@keyframes moving {
+    0% {
+        left:0%;
+        top: 0%;
+        transform: scale(1);
+    }
+    5% {
+        left: 10%;
+        top: 30%;
+        right: 20%;
+        transform: scale(1.4);
+    }
+    10% {
+        left: 20%;
+        right: 39%;
+        top: 40%;
+        transform: scale(1.4);
+    }
+    15% {
+        left: 25%;
+        top: 40%;
+        right: 20%;
+        transform: scale(1.4);
+    }
+    20% {
+        left: 30%;
+        top: 60%;
+        right: 60%;
+        transform: scale(1.4);
+    }
+
+}
