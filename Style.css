@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.body {
+    background: url("/backpic.avif") no-repeat;
+    background-size: cover;
+
+
+}
+
+.abhi {
+    margin-left: 5%;
+
+}
+
+.fontname {
+    font-family: 'Open Sans', sans-serif;
+    color: (248, 13, 13);
+
+
+}
+
+/* .nav-link:hover{
+    color: orange;
+
+} */
+
+.firsthover:hover {
+    color: #ff7800;
+}
+
+.homecolor {
+    color: #ff7800;
+}
+
+
+
+.User {
+    min-height: 105px;
+    border-left: 1px solid;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-left: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.User i {
+    font-size: 20px;
+
+
+}
+
+
+
+
+.cart {
+    min-height: 105px;
+    border-left: 1px solid;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-left: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.producthading {
+    min-width: 100%;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5%;
+    background: white;
+
+}
+
+.headfont {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+
+
+
+}
+
+.Basefont {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.mainbox {
+    min-width: 100%;
+    /* margin: auto auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 5%;
+    background: white;
+
+
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0% 10%;
+    width: 100%;
+    margin: 1% 10px;
+    margin-top: 4%;
+    background: white;
+
+
+
+}
+
+.details1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0% 10%;
+    width: 100%;
+    margin: 1% 10px;
+    margin-top: 4%;
+    background: white;
+
+}
+
+.parafirstimg img:hover {
+    left: 0;
+}
+
+.parafirstimg {
+    width: 43%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+
+}
+
+.parafirstimg img {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    background: white;
+    transition: 0.8s ease-in-out;
+
+
+}
+
+.paraheadimg1 {
+    width: 42%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+
+}
+
+.paraheadimg1 img {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    background: white;
+    transition: 0.8s ease-in-out;
+
+
+}
+
+.paraheadimg1 img:hover {
+    right: 0px;
+}
+
+@keyframes na {
+    0% {
+        left: 0px right:0px
+    }
+}
+
+.parahead {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 40%;
+}
+
+
+.parahead1 {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 40%;
+}
+
+.parafirstheading {
+    font-weight: var(--e-global-typography-secondary-font-weight);
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 2% 6% 0%;
+    padding: 0% 6% 1% 9%;
+    background: white;
+
+}
+
+.paraFirst {
+    padding: 0% 6% 1% 9%;
+    font-weight: 700;
+    color: rgb(136, 127, 127);
+    background: white;
+    text-align: center;
+}
+
+.paraFirst1 {
+    padding: 0% 2% 1% 9%;
+    font-weight: 700;
+    color: rgb(136, 127, 127);
+    background: white;
+    text-align: center;
+}
+
+.parasecondimg {
+    padding-left: 4%;
+    background: white;
+}
+
+.parahead1 {
+    /* margin: 0 0 0 6%; */
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.parafirstbutton {
+    padding: 1.5% 7%;
+    border-radius: 21px 21px;
+    border: none;
+    background: #ff7800;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+
+.base {
+    min-height: 105px;
+    border-left: 1px solid;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-left: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background: rgb(248, 151, 4);
+    opacity: .7;
+
+}
+
+.line1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+
+}
+
+.line2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 37px;
+
+}
+
+.para0 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 26%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+
+}
+
+.b1 {
+    padding: 9.5px 35px;
+    border-radius: 21px 21px;
+    border: none;
+    background: rgb(252, 106, 3);
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.baseform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 2% 0;
+}
+
+.form {
+    margin: 0.5% 0%;
+    padding: 1.5%;
+    width: 35%;
+    border: 1px solid gainsboro;
+
+
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    /* Firefox */
+    font-weight: 500;
+}
+
+.submit-btn {
+    border-radius: 50px;
+    padding: 1% 1.5%;
+    margin-top: 18px;
+    background-color: black;
+    color: white;
+
+
+
+}
+
+.submit-btn:hover {
+    background-color: rgb(252, 106, 3);
+
+}
+
+.footer1 {
+    padding: 7% 17% 0.5% 17%;
+    background-color: rgb(252, 106, 3);
+
+}
+
+
+.footer2 {
+    padding-bottom: 5%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.footer3 {
+    padding: 0% 4%;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    width: 30%;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.footer3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.pd {
+    padding: 10px 0;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+/* our story page */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Open+Sans:wght@700&family=Roboto+Slab&display=swap');
+#ourstory{
+    font-family: "Josefin Sans", Sans-serif;
+} */
+.Ofirstbox {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: rgb(252, 106, 3);
+
+    padding-top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    /* padding-left: 45%; */
+}
+
+.Ofirstheading {
+    text-align: center;
+
+}
+
+.Ofirstheading h3 {
+    margin-bottom: 30px;
+    margin-top: 5%;
+    font-weight: 700;
+
+}
+
+.Ofirstheading h4 {
+    font-weight: 800;
+}
+
+.Ofirstpara {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 5% 5%;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(224, 220, 220); */
+    margin-top: 50px;
+    /* height: 100vh; */
+    /* width: 80%; */
+
+}
+
+
+
+.Ofirstpara h3 {
+    font-size: 26px;
+
+    margin-bottom: 40px;
+    font-weight: 800;
+    width: 80%;
+}
+
+
+section {
+    background-image: url(/GG.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 190vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.imgfooter {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -100px;
+
+
+}
+
+
+/* Contact */
+.Ofirstheading h3 {
+    font-size: 45px;
+
+}
+
+/* OUR Offering */
+.mainList {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+
+.Byproductlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6%;
+    padding-right: 3%;
+}
+
+.Byproductlist ul li {
+    margin-top: 18px;
+    font-weight: 500;
+    color: rgb(132, 132, 132);
+    margin-left: 15px;
+}
+
+.listproductdetails {
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+.listproductdetails h2 {
+    font-weight: 700;
+    padding-left: 0px
+}
+
+.listproductdetails p {
+    color: rgb(252, 106, 3);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.button1 {
+    border-color: rgb(252, 106, 3);
+    padding: 1% 2%;
+    border-radius: 10px;
+    color: rgb(252, 106, 3);
+    background-color: white;
+    font-weight: 500;
+}
+#privacy_wrapper{
+    height: 100%;
+    width: 100%;
+    padding:1% 9%;
+}
+.wrapper{
+    margin-top: 4%;
+    height: 100%;
+}
+.privacy_heading{
+    padding: 1% 0;
+    font-weight: 700;
+}
+.content1{
+    height: 100%;
+    width: 100%;
+}
+.content1 p{
+    color: grey;
+    font-size: 15px;
+    font-weight: 600;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+.content1 ul {
+    padding-left: 20px;
+    color: grey;
+    font-size: 15px;
+    font-weight: 600;
+    word-spacing: 5px;
+    line-height: 30px; 
+}
+.content1 ul li{
+    margin-top: 10px;
+}
+.content1 .bold{
+    color: black;
+    font-weight: 700;
+}
+hr{
+    color: black;
+    font-weight: 900;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
